@@ -11,7 +11,7 @@ body {
 
 header {
     width: 100%;
-    height: 400px;
+    height: 300px;
     background-color: coral;
     background-image: url(./asset/images/design1_image1.jpg);
     background-size: cover;
@@ -41,10 +41,19 @@ nav a :hover {
 }
 
 main {
+    display: block;
     background-color: darkorange;
     width: 100%;
     height: 300px;
 
+}
+
+.rules-conteiner {
+    display: flex;
+    background-color: darkorange;
+    justify-content: center;
+    
+    
 }
 
 
@@ -103,9 +112,9 @@ section.contenido {
 }
 
 footer {
-    background-color: black;
+    background-color:floralwhite;
     display: block;
-    width: 100%;
-    height: 100px;
+    
+    
 }
 
